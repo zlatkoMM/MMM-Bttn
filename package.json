@@ -1,30 +1,24 @@
 {
-  "name": "mmm-template",
+  "name": "Magic-Mirror-Module-Button",
   "version": "1.0.0",
-  "description": "[Module description]",
-  "main": "MMM-Template.js",
-  "scripts": {
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix",
-    "test": "npm run lint"
-  },
+  "description": "A module for connecting button.",
   "repository": {
     "type": "git",
-    "url": "git+[GitHub url].git"
+    "url": "git+https://github.com/zlatkoMM/MMM-Bttn"
   },
   "keywords": [
-    "template"
+    "magic mirror",
+    "button",
+    "module"
   ],
-  "author": "[Author]",
+  "author": "zlatkoN",
+  "contributors": "git+https://github.com/zlatkoMM/MMM-Bttn/graphs/contributors",
   "license": "MIT",
-  "bugs": {
-    "url": "[GitHub url]/issues"
+  
+  "dependencies": {
+    "onoff": "latest"
   },
-  "homepage": "[GitHub url]#readme",
   "devDependencies": {
-    "@eslint/js": "^9.10.0",
-    "@stylistic/eslint-plugin": "^2.7.2",
-    "eslint": "^9.10.0",
-    "globals": "^15.9.0"
+    "electron-rebuild": "^1.2.1"
   }
 }
